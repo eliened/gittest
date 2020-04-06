@@ -20,6 +20,8 @@ int main() {
     int s2 = gethalf(s);
     s++;
 
+    int a = 10;
+
     return 0;
 }
 
