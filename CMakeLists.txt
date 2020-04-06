@@ -3,4 +3,4 @@ project(gittest C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(gittest main.c)
+add_executable(gittest main.c fonctionUtil.c fonctionUtil.h)

@@ -123,6 +123,33 @@ gittest/fast:
 	$(MAKE) -f CMakeFiles/gittest.dir/build.make CMakeFiles/gittest.dir/build
 .PHONY : gittest/fast
 
+fonctionUtil.o: fonctionUtil.c.o
+
+.PHONY : fonctionUtil.o
+
+# target to build an object file
+fonctionUtil.c.o:
+	$(MAKE) -f CMakeFiles/gittest.dir/build.make CMakeFiles/gittest.dir/fonctionUtil.c.o
+.PHONY : fonctionUtil.c.o
+
+fonctionUtil.i: fonctionUtil.c.i
+
+.PHONY : fonctionUtil.i
+
+# target to preprocess a source file
+fonctionUtil.c.i:
+	$(MAKE) -f CMakeFiles/gittest.dir/build.make CMakeFiles/gittest.dir/fonctionUtil.c.i
+.PHONY : fonctionUtil.c.i
+
+fonctionUtil.s: fonctionUtil.c.s
+
+.PHONY : fonctionUtil.s
+
+# target to generate assembly for a file
+fonctionUtil.c.s:
+	$(MAKE) -f CMakeFiles/gittest.dir/build.make CMakeFiles/gittest.dir/fonctionUtil.c.s
+.PHONY : fonctionUtil.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... gittest"
+	@echo "... fonctionUtil.o"
+	@echo "... fonctionUtil.i"
+	@echo "... fonctionUtil.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

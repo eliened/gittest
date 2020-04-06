@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "fonctionUtil.h"
 
 int sum(int a, int b);
 int prod(int a, int b);
@@ -13,6 +14,8 @@ int main() {
     int p = prod(10, 4);
     printf("\n %d %d",s, p);
 
+
+    int s2 = gethalf(s);
 
     return 0;
 }

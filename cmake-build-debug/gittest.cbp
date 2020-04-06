@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/elienedjar/gittest/fonctionUtil.c">
+			<Option target="gittest"/>
+		</Unit>
+		<Unit filename="/Users/elienedjar/gittest/fonctionUtil.h">
+			<Option target="gittest"/>
+		</Unit>
 		<Unit filename="/Users/elienedjar/gittest/main.c">
 			<Option target="gittest"/>
 		</Unit>

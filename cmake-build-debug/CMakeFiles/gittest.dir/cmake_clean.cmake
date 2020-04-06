@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/gittest.dir/fonctionUtil.c.o"
   "CMakeFiles/gittest.dir/main.c.o"
   "gittest"
   "gittest.pdb"
