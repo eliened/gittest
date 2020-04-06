@@ -1,14 +1,24 @@
 #include <stdio.h>
 
 int sum(int a, int b);
+int prod(int a, int b);
+
 
 int main() {
     printf("Hello, World!\n");
     printf("Hello teub");
     printf("Apprendre git");
     int s = sum(3, 5);
-    printf("\n %d",s);
+
+    int p = prod(10, 4);
+    printf("\n %d %d",s, p);
+
+
     return 0;
+}
+
+int prod(int a, int b){
+    return a * b;
 }
 
 
