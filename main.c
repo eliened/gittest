@@ -16,7 +16,6 @@ int main() {
 
 
     int s2 = gethalf(s);
-
     s++;
 
     return 0;
