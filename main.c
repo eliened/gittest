@@ -17,6 +17,8 @@ int main() {
 
     int s2 = gethalf(s);
 
+    printf("Path normal");
+
     return 0;
 }
 
