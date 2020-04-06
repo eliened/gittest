@@ -7,3 +7,7 @@
 int gethalf(int a){
     return a/2;
 }
+
+bool isDivisible(int num, int div){
+    return (num%div == 0) || (div%num == 0);
+}
