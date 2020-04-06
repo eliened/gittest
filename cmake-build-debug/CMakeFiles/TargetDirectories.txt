@@ -1,0 +1,3 @@
+/Users/elienedjar/gittest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/elienedjar/gittest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/elienedjar/gittest/cmake-build-debug/CMakeFiles/gittest.dir
