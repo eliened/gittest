@@ -10,6 +10,9 @@ int sous(int a, int b);
 int main() {
    int a = 10, b = 30, c = 40;
 
+   int p = prod(a,b);
+
+   printf("%d\n", p);
 }
 
 int prod(int a, int b){
