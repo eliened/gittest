@@ -3,6 +3,7 @@
 
 int sum(int a, int b);
 int prod(int a, int b);
+int division(int a, int b);
 
 
 int main() {
@@ -29,5 +30,8 @@ int prod(int a, int b){
 int sum(int a, int b){
     return a + b;
 
+}
+int division(int a, int b){
+    return a/b;
 }
 
